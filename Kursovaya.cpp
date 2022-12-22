@@ -67,61 +67,7 @@ int main() {
 
 	}
 
-
-
-
-	// вывод найденные числа(для проверки)
-
-	cout << "--------------" << endl;
-	cout << "Mass: " << endl;
-	for (int i = 0; i < j; i++) {
-		cout << "	[" << i << "]: " << NumberMas[i] << '\n';
-	}
-	cout << "--------------" << endl;
-	cout << j << endl;
-
-	__asm {
-		lea edi, NumberMas
-		mov ecx, j
-
-		outerloop : lea     ebx, [edi + ecx * 4]
-		mov     eax, [edi]
-		cmploop : sub     ebx, 4
-		cmp     eax, [ebx]
-		jle     notyet
-		xchg    eax, [ebx]
-		notyet : cmp     ebx, edi
-		jnz     cmploop
-		stosd
-		loop    outerloop
-
-	}
-
-	cout << "--------------" << endl;
-	cout << "Mass: " << endl;
-	for (int i = 0; i < j; i++) {
-		cout << "NumberMas[" << i << "]: " << NumberMas[i] << '\n';
-	}
-	cout << "--------------" << endl;
-
-
-	int max, min, result;
-	for (int i = j - 1; i > j / 2; i--) {
-		for (int k = 0; k <= j / 2; k++) {
-			__asm {
-				lea edi, NumberMas
-				mov ecx, k
-				mov eax, [edi + ecx * 4]
-				mov ecx, i
-				mov ebx, [edi + ecx * 4]
-				mov min, eax
-				mov max, ebx
-				sub ebx, eax
-				mov result, ebx
-			}
-			cout << max << " - " << min << " = " << result << endl;
-		}
-	}
+	
 
 	std::system("pause");
 	return 0;
