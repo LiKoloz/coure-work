@@ -102,6 +102,23 @@ int main() {
 	cout << "--------------" << endl;
 
 
+	int max, min, result;
+	for (int i = j - 1; i > j / 2; i--) {
+		for (int k = 0; k <= j / 2; k++) {
+			__asm {
+				lea edi, NumberMas
+				mov ecx, k
+				mov eax, [edi + ecx * 4]
+				mov ecx, i
+				mov ebx, [edi + ecx * 4]
+				mov min, eax
+				mov max, ebx
+				sub ebx, eax
+				mov result, ebx
+			}
+			cout << max << " - " << min << " = " << result << endl;
+		}
+	}
 	
 
 	std::system("pause");
