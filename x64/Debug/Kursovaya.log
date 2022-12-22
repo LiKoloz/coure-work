@@ -1,0 +1,104 @@
+﻿  Kursovaya.cpp
+D:\C++\Kursovaya\Kursovaya.cpp(22,2): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+D:\C++\Kursovaya\Kursovaya.cpp(23,7): error C2065: eax: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(23,10): error C3192: синтаксическая ошибка: "^" не является префиксным оператором (возможно, имелось в виду "*"?)
+D:\C++\Kursovaya\Kursovaya.cpp(23,12): error C2065: eax: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(24,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+D:\C++\Kursovaya\Kursovaya.cpp(24,3): error C2065: mov: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(24,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ebx"
+D:\C++\Kursovaya\Kursovaya.cpp(24,7): error C2065: ebx: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(25,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "lea"
+D:\C++\Kursovaya\Kursovaya.cpp(25,3): error C2065: lea: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(25,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "esi"
+D:\C++\Kursovaya\Kursovaya.cpp(25,7): error C2065: esi: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(26,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "lea"
+D:\C++\Kursovaya\Kursovaya.cpp(26,3): error C2065: lea: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(26,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "edi"
+D:\C++\Kursovaya\Kursovaya.cpp(26,7): error C2065: edi: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(28,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cmp"
+D:\C++\Kursovaya\Kursovaya.cpp(28,3): error C2065: cmp: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(28,7): error C2065: esi: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(29,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "je"
+D:\C++\Kursovaya\Kursovaya.cpp(29,3): error C2065: je: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(29,6): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "empty_line"
+D:\C++\Kursovaya\Kursovaya.cpp(29,6): error C2065: empty_line: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(32,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "loop_start"
+D:\C++\Kursovaya\Kursovaya.cpp(33,3): error C2065: imul: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(33,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+D:\C++\Kursovaya\Kursovaya.cpp(33,8): error C2065: eax: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(34,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "movzx"
+D:\C++\Kursovaya\Kursovaya.cpp(34,4): error C2065: movzx: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(34,10): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ecx"
+D:\C++\Kursovaya\Kursovaya.cpp(34,10): error C2065: ecx: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(34,15): error C2065: byte: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(34,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ptr"
+D:\C++\Kursovaya\Kursovaya.cpp(34,20): error C2065: ptr: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(34,24): error C2065: esi: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(35,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cmp"
+D:\C++\Kursovaya\Kursovaya.cpp(35,4): error C2065: cmp: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(35,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ecx"
+D:\C++\Kursovaya\Kursovaya.cpp(35,8): error C2065: ecx: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(36,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "jne"
+D:\C++\Kursovaya\Kursovaya.cpp(36,4): error C2065: jne: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(36,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "digit"
+D:\C++\Kursovaya\Kursovaya.cpp(36,8): error C2065: digit: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(38,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+D:\C++\Kursovaya\Kursovaya.cpp(38,4): error C2065: mov: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(38,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ebx"
+D:\C++\Kursovaya\Kursovaya.cpp(38,8): error C2065: ebx: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(39,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "jmp"
+D:\C++\Kursovaya\Kursovaya.cpp(39,4): error C2065: jmp: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(39,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "sign"
+D:\C++\Kursovaya\Kursovaya.cpp(39,8): error C2065: sign: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(41,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "digit"
+D:\C++\Kursovaya\Kursovaya.cpp(42,3): error C2065: sub: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(42,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ecx"
+D:\C++\Kursovaya\Kursovaya.cpp(42,7): error C2065: ecx: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(43,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "add"
+D:\C++\Kursovaya\Kursovaya.cpp(43,4): error C2065: add: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(43,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+D:\C++\Kursovaya\Kursovaya.cpp(43,8): error C2065: eax: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(43,13): error C2065: ecx: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(45,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "sign"
+D:\C++\Kursovaya\Kursovaya.cpp(46,3): error C2065: inc: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(46,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "esi"
+D:\C++\Kursovaya\Kursovaya.cpp(46,7): error C2065: esi: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(47,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cmp"
+D:\C++\Kursovaya\Kursovaya.cpp(47,4): error C2065: cmp: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(47,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "byte"
+D:\C++\Kursovaya\Kursovaya.cpp(47,8): error C2065: byte: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(47,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ptr"
+D:\C++\Kursovaya\Kursovaya.cpp(47,13): error C2065: ptr: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(47,17): error C2065: esi: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(48,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "je"
+D:\C++\Kursovaya\Kursovaya.cpp(48,4): error C2065: je: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(48,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "loop_end"
+D:\C++\Kursovaya\Kursovaya.cpp(48,7): error C2065: loop_end: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(50,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "cmp"
+D:\C++\Kursovaya\Kursovaya.cpp(50,4): error C2065: cmp: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(50,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "byte"
+D:\C++\Kursovaya\Kursovaya.cpp(50,8): error C2065: byte: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(50,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ptr"
+D:\C++\Kursovaya\Kursovaya.cpp(50,13): error C2065: ptr: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(50,17): error C2065: esi: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(51,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "jne"
+D:\C++\Kursovaya\Kursovaya.cpp(51,4): error C2065: jne: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(51,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "loop_start"
+D:\C++\Kursovaya\Kursovaya.cpp(51,8): error C2065: loop_start: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(53,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "loop_end"
+D:\C++\Kursovaya\Kursovaya.cpp(54,3): error C2065: imul: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(54,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+D:\C++\Kursovaya\Kursovaya.cpp(54,8): error C2065: eax: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(54,13): error C2065: ebx: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(55,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "add"
+D:\C++\Kursovaya\Kursovaya.cpp(55,4): error C2065: add: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(55,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "j"
+D:\C++\Kursovaya\Kursovaya.cpp(56,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+D:\C++\Kursovaya\Kursovaya.cpp(56,4): error C2065: mov: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(56,8): error C2065: edi: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(56,14): error C2065: eax: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(57,4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "add"
+D:\C++\Kursovaya\Kursovaya.cpp(57,4): error C2065: add: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(57,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "edi"
+D:\C++\Kursovaya\Kursovaya.cpp(57,8): error C2065: edi: необъявленный идентификатор
+D:\C++\Kursovaya\Kursovaya.cpp(57,11): fatal  error C1003: число ошибок превышает 100; остановка компиляции
