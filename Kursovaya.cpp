@@ -6,6 +6,12 @@
 #include <fstream>
 using namespace std;
 
+void print(int i,int mas[], string masName) {
+	cout << masName << "[" << i << "]: " << mas[i] << '\n';
+}
+
+
+
 int main() {
 	ifstream in("file.txt"); // Открытие потока для чтения файла
 	string line; // Переменная для хранения содержимого файла
@@ -72,10 +78,9 @@ int main() {
 	cout << "--------------" << endl;
 	cout << "Mass: " << endl;
 	for (int i = 0; i < j; i++) {
-		cout << "	[" << i << "]: " << NumberMas[i] << '\n';
+		print(i, NumberMas, "DataMas");
 	}
 	cout << "--------------" << endl;
-	cout << j << endl;
 
 	__asm {
 		lea edi, NumberMas
@@ -95,32 +100,48 @@ int main() {
 	}
 
 	cout << "--------------" << endl;
-	cout << "Mass: " << endl;
+	cout << "SortMass: " << endl;
 	for (int i = 0; i < j; i++) {
-		cout << "NumberMas[" << i << "]: " << NumberMas[i] << '\n';
+		print(i, NumberMas, "DataMas");
 	}
 	cout << "--------------" << endl;
 
 
-	int max, min, result;
-	for (int i = j - 1; i > j / 2; i--) {
-		for (int k = 0; k <= j / 2; k++) {
+	int results[3] = {}; // Массив для хранения результата
+	
 			__asm {
 				lea edi, NumberMas
-				mov ecx, k
+				mov ecx, 0
 				mov eax, [edi + ecx * 4]
-				mov ecx, i
+				mov ecx, j
+				sub ecx,1
 				mov ebx, [edi + ecx * 4]
-				mov min, eax
-				mov max, ebx
 				sub ebx, eax
-				mov result, ebx
-			}
-			cout << max << " - " << min << " = " << result << endl;
-		}
-	}
-	
+				lea esi, results
+				mov [results], ebx
 
+				mov ecx, 1
+				mov eax, [edi + ecx * 4]
+				mov ecx, j
+				sub ecx, 1
+				mov ebx, [edi + ecx * 4]
+				sub ebx, eax
+				mov[results+4], ebx
+
+				mov ecx, 0
+				mov eax, [edi + ecx * 4]
+				mov ecx, j
+				sub ecx, 2
+				mov ebx, [edi + ecx * 4]
+				sub ebx, eax
+				mov[results + 8], ebx
+			}
+
+			cout << "--------------" << endl;
+			for (int i = 0; i < 3; i++) {
+				print(i, results, "Result");
+			}
+			cout << "--------------" << endl;
 	std::system("pause");
 	return 0;
 }
